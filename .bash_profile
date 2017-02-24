@@ -1,9 +1,13 @@
 # Variables export section
 ###########################################################################
-export MAVEN_OPTS="-Xmx1024M -XX:MaxPermSize=512m"
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-export M2_HOME=/usr/local/maven
-export PATH=/usr/local/bin:${M2_HOME}/bin:${PATH}
+#export MAVEN_OPTS="-Xmx1024M -XX:MaxPermSize=512m"
+#export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+#export M2_HOME=/usr/local/maven
+#export PATH=/usr/local/bin:${M2_HOME}/bin:${PATH}
+
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export M3_HOME=/Users/v_slo/Applications/apache-maven-3.3.9/bin
+export PATH=/usr/local/bin:${M3_HOME}:${PATH}
 
 alias tw="open -a TextWrangler"
 
