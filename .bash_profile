@@ -6,8 +6,8 @@
 #export PATH=/usr/local/bin:${M2_HOME}/bin:${PATH}
 
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-export M3_HOME=/Users/v_slo/Applications/apache-maven-3.3.9/bin
-export PATH=/usr/local/bin:${M3_HOME}:${PATH}
+export M3_HOME=/Users/v_slo/Applications/apache-maven-3.3.9
+export PATH=/usr/local/bin:${M3_HOME}/bin:${PATH}
 
 alias tw="open -a TextWrangler"
 
